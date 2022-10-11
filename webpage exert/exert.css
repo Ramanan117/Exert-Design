@@ -1,0 +1,277 @@
+.bg-image {
+  background-image: url("./images/bac.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  height: 100vh;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Nirmala UI;
+  font-size: 17.4px;
+}
+button {
+  background-color: rgb(6, 124, 124);
+  color: white;
+  font-size: x-small;
+  height: 35px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+.menu {
+  font-size: 20px;
+  color: white;
+  padding-left: 200vh;
+}
+.txtimage {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+h1 {
+  color: rgb(243, 232, 232);
+  font-weight: bold;
+  font-size: 50px;
+}
+small {
+  letter-spacing: 0.5em;
+  color: white;
+  font-family: MingLiU-ExtB;
+}
+h3 {
+  color: white;
+  margin-top: 20px;
+}
+
+.txt1 {
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+}
+.para1,
+.para2,
+.para3 {
+  padding-top: 20px;
+}
+.three-img {
+  padding-top: 30px;
+}
+.img1 {
+  width: 80px;
+}
+.img2 {
+  padding-left: 50px;
+  width: 80px;
+}
+.img3 {
+  padding-left: 50px;
+  width: 80px;
+}
+
+.txt2 {
+  padding-top: 50px;
+}
+.left-img {
+  float: left;
+  width: 300px;
+  height: 230px;
+  transition: 1s;
+}
+.in-txt2 {
+  padding-top: 59px;
+  text-align: left;
+  padding-left: 400px;
+  background-color: rgb(15, 180, 180);
+  padding-bottom: 58.5px;
+  color: whitesmoke;
+}
+
+.in-txt3 {
+  padding-top: 59px;
+  text-align: left;
+  padding-left: 100px;
+  background-color: rgb(252, 252, 252);
+  padding-bottom: 58.5px;
+}
+.right-img {
+  margin-top: -231px;
+  width: 300px;
+  height: 231px;
+  float: right;
+  transition: 1s;
+}
+
+.left-img1 {
+  float: left;
+  width: 300px;
+  height: 230px;
+  transition: 1s;
+}
+
+.in-txt4 {
+  padding-top: 59px;
+  text-align: left;
+  padding-left: 400px;
+  background-color: rgb(15, 180, 180);
+  padding-bottom: 58.5px;
+  color: whitesmoke;
+}
+.left-img:hover,
+.left-img1:hover,
+.right-img:hover {
+  box-shadow: 8px 5px 10px #000;
+}
+
+.bigsquare {
+  height: 135vh;
+  padding-top: 50px;
+  text-align: center;
+  background-color: #ff9e43;
+}
+.square1,
+.square3,
+.square5 {
+  margin-top: 10px;
+  margin-left: 225px;
+  padding: 50px;
+  background-color: #f18217;
+  color: whitesmoke;
+  text-align: left;
+  float: left;
+  transition: 1s;
+}
+.square2,
+.square4,
+.square6 {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 50px;
+  background-color: #f18217;
+  color: whitesmoke;
+  text-align: left;
+  float: left;
+  transition: 1s;
+}
+.square1,
+.square2 {
+  margin-top: 40px;
+}
+.square1:hover,
+.square2:hover,
+.square3:hover,
+.square4:hover,
+.square5:hover,
+.square6:hover {
+  background: #ff800a;
+  box-shadow: 8px 5px 10px #000;
+  color: black;
+}
+
+.ourimage {
+  text-align: center;
+  padding-top: 50px;
+}
+.ramimg {
+  width: 150px;
+  border-radius: 50%;
+}
+.ramimg:hover,
+.visimg:hover {
+  box-shadow: 0 0 15px black;
+}
+.visimg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.ramdiv {
+  float: left;
+  padding-left: 280px;
+  padding-top: 50px;
+}
+.visdiv {
+  float: left;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.ramtxt,
+.vistxt {
+  background-color: #ecf8f8;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+.inbtnram,
+.inbtnvis {
+  margin-top: 30px;
+  background-color: #0470b5;
+  border-radius: 20px;
+}
+.insbtnram,
+.insbtnvis {
+  background-color: #ff0064;
+  border-radius: 20px;
+  margin-left: 2px;
+}
+
+.inbtnram:hover,
+.inbtnvis:hover {
+  background: #02558a;
+  box-shadow: 4px 3px 5px #000;
+  color: black;
+}
+.insbtnram:hover,
+.insbtnvis:hover {
+  background: #dc0259;
+  box-shadow: 4px 3px 5px #000;
+  color: black;
+}
+
+.last {
+  background-image: url("./images/end.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  height: 60vh;
+  margin-top: 450px;
+}
+.enddiv {
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 5px;
+}
+.inmail {
+  margin-top: 50px;
+  padding: 7px;
+  padding-right: 200px;
+  border-radius: 5px;
+  border-color: white;
+}
+.send {
+  background-color: #01a3a5;
+  padding: 7px;
+  border-color: #01a3a5;
+  border-radius: 5px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+.send:hover,
+.learn:hover {
+  background: #018a8c;
+  box-shadow: 4px 3px 5px #000;
+  color: black;
+}
+h5 {
+  margin-top: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
